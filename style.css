@@ -4,7 +4,8 @@ body{
 
 .header{
 	width:80%;
-	background:url(images/header_bg.png);
+	background-size: cover;
+	background:url(images/head_bg_2.jpg) center no-repeat;
 	margin:auto;
 }
 
