@@ -12,7 +12,7 @@ body{
 .header{
 	width:80%;
 	background-size: cover;
-	background:url(images/head_bg_2.jpg) center no-repeat;
+	background:url(images/pink.jpeg) center no-repeat;
 	margin:auto;
 }
 
@@ -24,7 +24,6 @@ body{
 	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
 	-webkit-background-clip: text;
 	display: inline-block;
-	color: black;
 	color:transparent;
 	padding:10px 20px;
 	margin: 0 20px;
@@ -91,7 +90,6 @@ body{
 }
 
 .header_content{
-	color:#2DFFA0;
 	margin-top:15%;
 	text-align: center;
 }
@@ -105,9 +103,11 @@ body{
 }
 
 .rainbow_button{
-	background:none;
-	border:2px solid pink;
-	color: #8228FF;
+	border: 3px solid transparent;
+	border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+	border-image-slice: 1;
+	margin: 20px auto;
+	width:25%;
 	border-radius:5px;
 	padding:10px;
 	margin-bottom:10%;
@@ -119,9 +119,18 @@ body{
 }
 
 .rainbow_button:hover{
-	border:none;
-	background-color: pink;
-	color:white;
+	padding:12px 12px;
+	background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+}
+
+.button_text{
+	background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+	-webkit-background-clip: text;
+	color:transparent;
+}
+
+.rainbow_button a:hover{
+	
 }
 
 .god_main{
@@ -144,4 +153,5 @@ body{
 	font-size: 25px;
 	padding-top:5%;
 }
+
 
