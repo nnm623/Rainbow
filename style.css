@@ -135,7 +135,7 @@ body{
 
 .god_main{
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
 .god{
@@ -149,9 +149,16 @@ body{
 }
 
 .god_text{
-	color:yellow;
+	text-align: center;
 	font-size: 25px;
 	padding-top:5%;
+}
+
+.bubble{
+	height: 5%;
+    top: -50px;
+    right: -140px;
+    position: relative;;
 }
 
 
